@@ -7,7 +7,7 @@ html {
 
 nav {
   background-color: #000;
-  color: white;
+  color: rgb(231, 254, 200);
   margin: 0px;
   padding: 0px;
 }
@@ -36,7 +36,7 @@ div.nav-bar-links {
 }
 
 a.nav-bar-link {
-  color: white;
+  color: rgb(231, 254, 200);
   text-decoration: none;
   padding: 0 10px;
 }
@@ -64,13 +64,13 @@ h1 {
 
 .row div {
   /* border: 1px solid grey; */
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 div.month-display h5 {
   background-color: rgb(231, 254, 200);
-  padding: 10px;
-  margin: 5px;
+  padding: 10px 5px;
+  margin: 5px 12px 25px;
   font-size: 36px;
   /* border: 2px solid rgb(219, 239, 193); */
   font-weight: 300;
@@ -78,12 +78,13 @@ div.month-display h5 {
   font-family: "Barlow Condensed", sans-serif;
 }
 hr {
-  margin: 15px 5px;
+  margin: 15px 0px;
   padding: 0;
+  border: 1px solid rgb(174, 218, 115);
 }
 .upcoming {
   /* border: 1px solid grey; */
-  max-width: 800px;
+  max-width: 900px;
   margin: 50px auto;
 }
 
