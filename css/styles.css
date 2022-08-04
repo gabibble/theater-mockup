@@ -25,13 +25,12 @@ a:hover {
 h4.nav-title {
   font-family: "Barlow Condensed", sans-serif;
   margin: 0;
-  padding: 0;
-  text-align: center;
+  padding: 0 10px;
 }
 
 div.nav-bar-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -84,7 +83,7 @@ hr {
 }
 .upcoming {
   /* border: 1px solid grey; */
-  max-width: 900px;
+  max-width: 800px;
   margin: 50px auto;
 }
 
@@ -145,18 +144,24 @@ footer {
 }
 
 div.theater-info {
-  max-width: 80%;
-  padding: 40px;
+  max-width: 1000px;
+  padding: 40px 0;
   margin: 0 auto;
 }
 
+div.map {
+  padding: 5px 20px;
+}
+
 div.info {
-  padding-left: 30px;
+  padding: 5px 20px 20px;
 }
 
 .info h4 {
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 
 .info a {
